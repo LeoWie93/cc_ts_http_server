@@ -1,0 +1,15 @@
+{
+    "name": "@codecrafters/build-your-own-http-server",
+    "description": "Build your own HTTP Server challenge, from CodeCrafters",
+    "type": "module",
+    "scripts": {
+        "dev": "bun run app/main.ts",
+        "watch": "bun --watch app/main.ts"
+    },
+    "dependencies": {
+        "async": "^3.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.11"
+    }
+}
